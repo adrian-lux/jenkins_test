@@ -24,6 +24,6 @@ node {
     }
 
     stage('Run image') {
-        sh "docker run -p 8000:8000 s2-hellonode:2"
+        sh "docker run -p 8000:8000 s2-hellonode"
     }
 }
