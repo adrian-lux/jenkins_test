@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("adrian-lux/jenkins_test")
+        app = docker.build("s2-hellonode")
     }
 
     stage('Test image') {
